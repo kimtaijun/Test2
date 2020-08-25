@@ -1,0 +1,60 @@
+{
+  "groups": [
+    {
+      "name": "proxy.cobra",
+      "type": "com.cobra.proxy.properties.ProxyProperties",
+      "sourceType": "com.cobra.proxy.properties.ProxyProperties"
+    },
+    {
+      "name": "swagger",
+      "type": "com.cobra.proxy.properties.SwaggerProperties",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "proxy.cobra.iam",
+      "type": "com.cobra.proxy.properties.IAMProperties",
+      "sourceType": "com.cobra.proxy.properties.ProxyProperties"
+    },
+    {
+      "name": "proxy.cobra.kubesphere",
+      "type": "com.cobra.proxy.properties.KubeSphereProperties",
+      "sourceType": "com.cobra.proxy.properties.ProxyProperties"
+    },
+    {
+      "name": "swagger.description",
+      "type": "java.lang.String",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.flag",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "swagger.show-iam",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "swagger.show-kubesphere",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties",
+      "defaultValue": false
+    },
+    {
+      "name": "swagger.title",
+      "type": "java.lang.String",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties"
+    },
+    {
+      "name": "swagger.version",
+      "type": "java.lang.String",
+      "sourceType": "com.cobra.proxy.properties.SwaggerProperties"
+    }
+  ],
+  "hints": []
+}
